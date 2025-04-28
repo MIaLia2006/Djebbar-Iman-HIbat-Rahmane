@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue dans mon portfolio</h1>
+
+        <p>Je m'appele Djebbar Imane Hibat Rahmane une étudiante en informatique passionnée par les nouvelles technologies et le développement web. Curieuse et motivée, j'aime concevoir des sites modernes et interactifs qui offrent une expérience utilisateur agréable. Au cours de ma formation, j'ai acquis des compétences solides en HTML, CSS, JavaScript et Python, que je continue de perfectionner à travers divers projets personnels. Mon objectif est de devenir développeuse web et de contribuer à créer des solutions numériques innovantes et accessibles à tous.</p>
+    </header>
+
+    <section id="competences">
+        <h2>Compétences</h2>
+        <ul>
+            <li><strong>HTML:</strong> Création de sites web statiques</li>
+            <li><strong>CSS:</strong> Mise en forme et design responsive</li>
+            <li><strong>JavaScript:</strong> Ajout d'interactivité aux pages</li>
+            <li><strong>Python:</strong> Développement de scripts automatisés</li>
+        </ul>
+    </section>
+
+    <section id="projets">
+        <h2>Projets</h2>
+
+        <div class="project">
+            <h3>Site Web de Recettes</h3>
+            <p>Un site web qui permet aux utilisateurs de trouver et partager des recettes de cuisine.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <button onclick="toggleDetails(this)">Voir plus</button>
+            <div class="details hidden">
+                <p>Fonctionnalités : recherche de recettes, favoris, filtres par type de cuisine.</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Site Web des parfums</h3>
+            <p>Un site web élégant pour découvrir, explorer et acheter une variété de parfums raffinés.</p>
+            <p><strong>Technologies:</strong> JavaScript, HTML5 LocalStorage</p>
+            <button onclick="toggleDetails(this)">Voir plus</button>
+            <div class="details hidden">
+                <p>Fonctionnalités : affichage des parfums, recherche par nom ou catégorie, panier d'achat simple.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Contactez-moi :</p>
+        <a href="https://www.linkedin.com/in/iman-hibat-rahmane-26a940362" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/MIaLia2006/iman-hibat-rahmane.git" target="_blank">GitHub</a> |
+        <a href="mailto:votremail@imanehibatrahmane.com">Email</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #ffb6b9;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ff6f91;
+}
+
+/* Compétences */
+#competences ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#competences li {
+    background-color: #ffe0f0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Projets */
+.project {
+    background-color: #f9f3f3;
+    border: 1px solid #ffb6b9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    box-shadow: 0 4px 8px rgba(255, 182, 185, 0.5);
+}
+
+button {
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff4e78;
+}
+
+/* Détails cachés */
+.hidden {
+    display: none;
+}
+
+.details {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #ffe0f0;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ff6f91;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
